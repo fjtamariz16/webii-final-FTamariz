@@ -8,11 +8,21 @@ export default function Usuarios() {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    // TODO: consumir /users con axiosInstance
-    // TODO: mostrar nombre, email y ciudad
-    // TODO: manejar loading y error
+    const cargarUsuarios = async () => {
+      try {
+        setLoading(true);
+        setError('');
 
-    setLoading(false);
+        const response = await axiosInstance.get('/users');
+        setUsers(response.data);
+      } catch (error) {
+        setError('Error al cargar los usuarios.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    cargarUsuarios();
   }, []);
 
   return (
