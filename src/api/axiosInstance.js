@@ -1,9 +1,5 @@
 import axios from 'axios';
 
-// TODO: configurar baseURL con 'https://jsonplaceholder.typicode.com'
-// TODO: agregar interceptor de request que lea el token de localStorage
-//       y agregue el header Authorization: Bearer [token]
-
 const axiosInstance = axios.create({
   baseURL: 'https://jsonplaceholder.typicode.com',
 });

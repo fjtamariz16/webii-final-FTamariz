@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom">
       <div className="container-fluid">
-        <span className="navbar-brand fw-bold">Examen Opción 2</span>
+        <span className="navbar-brand fw-bold text-primary">Examen Sistema Administrativo</span>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
           <span className="navbar-toggler-icon"></span>
         </button>

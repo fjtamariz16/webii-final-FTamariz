@@ -16,7 +16,7 @@ export default function Login() {
       return;
     }
 
-    const token = btoa(email + ':' + password);
+    const token = btoa(email + ':' + Date.now());
     localStorage.setItem('token', token);
     navigate('/dashboard');
   };
@@ -25,6 +25,9 @@ export default function Login() {
     <div className="page-bg d-flex align-items-center justify-content-center p-3">
       <div className="auth-card">
         <h2 className="section-title text-center">Iniciar sesión</h2>
+        <p className="text-muted text-center mb-4">
+          Ingrese sus credenciales para acceder al panel de control.
+        </p>
         {error && <div className="alert alert-danger">{error}</div>}
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
