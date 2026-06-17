@@ -52,9 +52,9 @@ npm run dev
 
 1. **Login**
 <img width="440" height="423" alt="Screenshot 2026-06-17 at 6 31 37 PM" src="https://github.com/user-attachments/assets/78ef3702-b6bf-4feb-bf5b-9b63063bad37" />
-
+&nbsp;
 2. **Dashboard**
 <img width="1270" height="458" alt="Screenshot 2026-06-17 at 6 26 05 PM" src="https://github.com/user-attachments/assets/a6b4c949-2e24-45bc-9078-97814939c038" />
-
+&nbsp;
 3. **Usuarios**
 <img width="1266" height="605" alt="Screenshot 2026-06-17 at 6 26 13 PM" src="https://github.com/user-attachments/assets/5c838e39-11e9-46fd-b6db-75764db3c895" />
