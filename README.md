@@ -50,7 +50,7 @@ npm run dev
 
 ## Capturas de pantalla
 
-**Login**
+**Login**\
 <img width="440" height="423" alt="Screenshot 2026-06-17 at 6 31 37 PM" src="https://github.com/user-attachments/assets/78ef3702-b6bf-4feb-bf5b-9b63063bad37" />
 <br></br>
 
