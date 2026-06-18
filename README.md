@@ -43,7 +43,6 @@ opcion2-base/
 ## Instalación y ejecución
 
 ```bash
-cd opcion2-base
 npm install
 npm run dev
 ```
